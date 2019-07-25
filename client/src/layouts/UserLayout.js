@@ -4,20 +4,19 @@ import { FormattedMessage } from 'umi/locale';
 import { Icon } from 'antd';
 import GlobalFooter from '@/components/GlobalFooter';
 import styles from './UserLayout.less';
-import logo from '../assets/logo.svg';
 
 const links = [
   {
     key: 'github',
     title: <Icon type="github" />,
-    href: 'https://github.com/VKSRC/Github-Monitor',
+    href: 'https://github.com/stat-ops/Github-Monitor',
     blankTarget: true,
   },
 ];
 
 const copyright = (
   <Fragment>
-    Copyright <Icon type="copyright" /> 2018 VIPKID -{' '}
+    Copyright <Icon type="copyright" /> 2019 TTPAI -{' '}
     <FormattedMessage id="login.footer.security-center" />
   </Fragment>
 );
@@ -43,7 +42,6 @@ class UserLayout extends React.PureComponent {
           <div className={styles.top}>
             <div className={styles.header}>
               <Link to="/">
-                <img alt="logo" className={styles.logo} src={logo} />
                 <span className={styles.title}>Github Monitor</span>
               </Link>
             </div>

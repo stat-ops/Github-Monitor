@@ -275,7 +275,7 @@ export default {
   'task.modal.field.keyword.hint': '不可为空，支持多个关键词使用换行分隔',
   'task.modal.field.ignore-username': '忽略帐号',
   'task.modal.field.ignore-username.hint':
-    '忽略指定账号下的仓库, 支持多个账号名使用换行分隔, 如VKSRC',
+    '忽略指定账号下的仓库, 支持多个账号名使用换行分隔, 如stat-ops',
   'task.modal.field.ignore-repo': '忽略仓库',
   'task.modal.field.ignore-repo.hint':
     '忽略包含某些关键词的仓库, 支持多个关键词使用换行分隔, 如.github.io',
@@ -291,7 +291,7 @@ export default {
   'login.description': 'Github泄漏信息监控平台',
   'login.field.username.placeholder': '请输入帐号',
   'login.field.password.placeholder': '请输入密码',
-  'login.footer.security-center': '安全中心',
+  'login.footer.security-center': '技术中心',
   'login.error': '帐号或密码不正确！',
   'effects.operation-succeed': '操作成功！',
 };

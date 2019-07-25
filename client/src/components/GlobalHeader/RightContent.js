@@ -35,7 +35,7 @@ export default class GlobalHeaderRight extends PureComponent {
               <Avatar
                 size="small"
                 className={styles.avatar}
-                src="https://file.vipkid.com.cn/vksrc/avatar/default.png"
+                src="/default.png"
                 alt="avatar"
               />
               <span className={styles.name}>{currentUser.username}</span>

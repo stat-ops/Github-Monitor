@@ -11,13 +11,13 @@ const FooterView = () => (
         {
           key: 'github',
           title: <Icon type="github" />,
-          href: 'https://github.com/VKSRC/Github-Monitor',
+          href: 'https://github.com/stat-ops/Github-Monitor',
           blankTarget: true,
         },
       ]}
       copyright={
         <Fragment>
-          Copyright <Icon type="copyright" /> 2018 VIPKID -{' '}
+          Copyright <Icon type="copyright" /> 2019 TTPAI -{' '}
           <FormattedMessage id="login.footer.security-center" />
         </Fragment>
       }

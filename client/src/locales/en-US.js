@@ -281,7 +281,7 @@ export default {
     'Cannot be empty, supports multiple keywords separated by line breaks',
   'task.modal.field.ignore-username': 'Ignore username',
   'task.modal.field.ignore-username.hint':
-    'Ignore repositories under a specified account (e.g. VKSRC), support separate multiple account names with line breaks.',
+    'Ignore repositories under a specified account (e.g. stat-ops), support separate multiple account names with line breaks.',
   'task.modal.field.ignore-repo': 'Ignore repo',
   'task.modal.field.ignore-repo.hint':
     'Ignore repositories that contain certain keywords and allow multiple keywords to be separated by newlines, such as .github.io',

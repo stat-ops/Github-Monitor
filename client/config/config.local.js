@@ -4,7 +4,7 @@ export default {
   },
   proxy: {
     '/api': {
-      target: 'http://127.0.0.1:8001/',
+      target: 'http://10.10.16.217:8001/',
       changeOrigin: true,
     },
   },
